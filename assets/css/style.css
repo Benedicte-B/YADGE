@@ -1,0 +1,429 @@
+:target {
+    display: block;
+    position: relative;
+    top: -9vh; 
+    visibility: hidden;
+}
+body{
+    background-color: #faf5d7;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+p{
+    color:#3C1518;
+}
+h2{
+    color:#3C1518;
+    font-family: 'Roboto Slab', serif;
+    font-size: 3em;
+    letter-spacing: 2px;
+}
+h3{
+    color:#bb953b;
+    font-size:2em;
+    font-family: 'Roboto Slab', serif;
+}
+/*Début partie MICHÈLE*/
+h4
+{
+    color: #3c1518;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1em;
+}
+/*Fin partie Michèle*/
+h5
+{
+    color: #3c1518; 
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5em;
+}
+
+/*Début header François*/
+#accueilBanner header {
+    height: 92vh;
+    margin-top: 0;
+    padding-top: 0;
+    background-color: #faf5d7;
+}
+#blankBanner header {
+    height: auto;
+}
+header a {
+    font-family: 'Roboto', sans-serif;
+    color:#bb953b;
+}
+.logoMargin {
+    padding-top: 12vh;
+    padding-bottom: 10vh;
+}
+.contactBanner {
+    background-color: #faf5d7;
+    height: 3vh;
+    margin-top: 0;
+    padding-top: 0;
+    display: flex;
+    align-items: center;
+}
+.contactBanner a:hover {
+    color:#3C1518;
+    text-decoration: none;
+    font-style: italic;
+}
+.logoMargin {
+    padding-top: 12vh;
+    padding-bottom: 10vh;
+}
+/***********NAV************/
+nav {
+    min-height: 8vh;
+    background-color: #faf5d7;
+    padding-top: 5vh;
+    padding-bottom: 0;
+    line-height: 1;
+}
+nav ul {
+    width: 100%;
+    display: flex;
+}
+nav a {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.linkSize {
+    width: 100%;
+}
+.navbar-light .nav-item.active .nav-link,
+.navbar-light .nav-item .nav-link:active,
+.navbar-light .nav-item .nav-link:focus,
+.navbar-light .nav-item:hover .nav-link {
+    color: #D25934;
+    font-style: italic;
+}
+.navBorder {
+    border-right: solid 1px #bb953b;
+    border-left: solid 1px #bb953b;
+}
+.accueilBorder {
+    border-right: solid 1px #bb953b;
+}
+.contactBorder {
+    border-left: solid 1px #bb953b;
+}
+.videoMobile {
+    display: none;
+}
+.espritBanner{
+    background-image: url(../img/banniereTop.jpeg);
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    
+}
+.titleBanner
+{
+    letter-spacing: 4.5px;
+}
+.interligne{
+    line-height: 1.7em;
+}
+#avis img {
+    width: 90px;
+    height: 90px;
+}
+/*Fin header François*/
+
+.footerRS i {
+    color : #bb953b;
+}
+.footerColor > p, li{
+    color : #bb953b;
+}
+footer li{
+    list-style: none;
+}
+footer li:hover{
+    font-weight: bold;
+    font-style: italic;
+}
+.footerHover:hover{
+    font-weight: bold;
+    font-style: italic;
+}
+.colorOrange{
+    color:#DD6E42;
+}
+.confianceBanner{
+    background-image: url(../img/banniereBot.jpg);
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+.formInput {
+    background-color :white;
+    border-radius: 0;
+    border-style: none;
+}
+.formInput::placeholder {
+    font-style: italic;
+}
+input[type="checkbox"].formInput + label {
+    color: #3C1518;
+    margin-right: 0.3rem  ;
+  }
+.buttonOrange{
+    background-color:#D25934;
+    border-radius: 5px;
+    color:white;
+    
+}
+.buttonOrange:hover{
+    background-color: #bb953b;
+    color:white;
+}
+/* Fin ajout CSS Bénédicte : Footer + Fidelite et Newsletter */
+
+/* Ajout Justine : Esprit + collection */
+.photosCollection
+{
+    border-radius: 4em;
+}
+.buttonCollection
+{
+    background-color:#D25934;
+    border-radius: 5px;
+    border:none;
+}
+.buttonCollink
+{
+    color:white;
+    text-decoration: none;
+    
+}
+
+.buttonCollection:hover
+{
+    background-color: #bb953b; 
+}
+.buttonCollink:hover
+{
+    color: white;
+    text-decoration: none;
+}
+
+/* Fin ajout Justine  : Esprit + collection*/
+
+/*Page Collections*/
+
+#collections h1 {
+    color:#3C1518;
+    font-family: 'Roboto Slab', serif;
+    font-size: 3em;
+    letter-spacing: 2px;
+}
+#collections h5 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #D25934;
+}
+.centerCollectionContent {
+    display: flex;
+    justify-content: center;
+}
+#collections .card-text {
+    height: 50%;
+    text-align: justify;
+}
+#collections .card-body {
+    height: 250px;
+}
+.card, .card-body, .card-text {
+    background-color: transparent;
+    border: none;
+}
+.card {
+    border-radius: 0;
+    border-bottom: solid 2px #D25934;
+}
+/*Page  collections: François*/
+
+/* CSS page esprit: benedicte */
+.esprith1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 3em;
+    letter-spacing: 2px;
+}
+.esprith2{
+    font-size: 2em;
+}
+#valeurs img{
+    width: 100%;
+}
+/* CSS page esprit: benedicte */
+/*Page Justine: l'association*/
+.associationBanner
+{
+        background-image: url(../img/PaniersOsier.jpeg);
+        background-size: cover;
+        background-position-x: 50%;
+        background-position-y: 50%;
+}
+.textBanner
+{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+.imageAssociation
+{
+border-radius: 100%;
+}
+.creatrice p
+{
+    color: #bb953b
+}
+
+.myForm input{
+    background-color :#F7F7F7;
+    border-radius: 0;
+    border: solid 1px #3C1518;
+}
+.myForm textarea{
+    background-color :#F7F7F7;
+    border-radius: 0;
+    border: solid 1px #3C1518;
+}
+.myForm label{
+    color: #3C1518;
+}
+.input-group-text{
+    color:white;
+    background-color: #3C1518;
+    border:none;
+}
+
+.form-control:focus{
+    box-shadow:none;
+    border-color:#3C1518;
+}
+/*Fin de page Justine: l'association*/
+/*Début Page contact: Michèle*/
+.fontContact{
+    color: #D25934;
+    font-style: italic;
+}
+.imgContact{
+    background-image: url(../img/corbeillesOsier.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+.pContact{
+    color:#3C1518;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5em;
+    font-weight:bold;
+}
+.pContact1{
+    color:#3C1518;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size: 1em;
+}
+h1 {
+    color:#3C1518;
+    font-family: 'Roboto Slab', serif;
+    font-size: 3em;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.buttonContact
+{
+    background-color:#D25934;
+    border-radius: 5px;
+    color: white;
+}
+.buttonContact:hover{
+    background-color: #bb953b;
+}
+.buttonContactlink:hover
+{
+    color: white;
+    text-decoration: none;
+}
+#contact a {
+    color: white
+}
+.contactSpacer {
+    height: 8vh;
+}
+/*Fin de la page contact: Michèle*/
+@media screen and (max-width: 1400px) {
+    nav a {
+        font-size: 1em;
+    }
+}
+@media screen and (max-width: 1200px) {
+    nav a {
+        font-size: 0.7em;
+    }
+}
+@media screen and (max-width: 992px) {
+    .navBorder {
+        border: none;
+    }
+    .accueilBorder {
+        border: none;
+    }
+    .contactBorder {
+        border: none;
+    }
+}
+@media screen and (max-width:768px){
+    .contactSpacer {
+    display: none;
+    }
+}
+@media only screen and (min-device-width : 688px) and (max-device-width : 774px) {
+    .videoDesktop {
+        display: none;
+    }
+    .videoMobile {
+        display: block;
+    }
+    .logoMargin {
+        padding-top: 9vh;
+        padding-bottom: 5vh;
+    }
+    .contactBanner {
+        font-size: 0.7em;
+    }
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 688px) {
+    .videoDesktop {
+        display: none;
+    }
+    .videoMobile {
+        display: block;
+    }
+    .logoMargin {
+        padding-top: 7vh;
+        padding-bottom: 5vh;
+    }
+    .contactBanner {
+        font-size: 0.8em;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    h3 {
+        font-size: 1.5em;
+    }
+
+}
